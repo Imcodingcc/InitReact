@@ -15,6 +15,16 @@ export const toggleTodo = id =>({
     id
 })
 
+export const fetchPost = (url)=>({
+    type: 'FETCH_POSTS',
+    url
+})
+
+export const receivePost = (json)=>{
+    type: 'RECEIVE_POSTS',
+    json
+}
+
 export const VisibilityFilters = {
     SHOW_ALL: 'SHOW_ALL',
     SHOW_COMPLETED: 'SHOW_COMPLETED',
