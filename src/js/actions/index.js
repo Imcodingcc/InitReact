@@ -20,10 +20,10 @@ export const fetchPost = (url)=>({
     url
 })
 
-export const receivePost = (json)=>{
+export const receivePost = (json)=>({
     type: 'RECEIVE_POSTS',
     json
-}
+})
 
 export const VisibilityFilters = {
     SHOW_ALL: 'SHOW_ALL',
