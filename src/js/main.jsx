@@ -20,9 +20,9 @@ render(
     <Switch>
         <Route exact path='/' component={App} />
         <Route exact path='/login' component={LoginForm} />
-        <Route exact path='/testfetch' component={TestFetch} />
+        <Route path='/testfetch' component={TestFetch} />
       </Switch>
     </HashRouter>
   </Provider>,
   document.getElementById('root')
-)
+) 
